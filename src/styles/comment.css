@@ -1,0 +1,56 @@
+
+.container-comments{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+   
+    
+}
+.container-comments > h3{
+    padding: 60px;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+}
+.comment{
+    display: flex;
+    gap:25px;
+    justify-content: space-around;
+}
+.comment > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B6E0F9;
+    padding:0 20px 20px 20px;
+    border-radius: 15px;
+    width: 600px;
+}
+.comment > div > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+    border: 10px solid #fff; 
+    position: relative;
+    top: -50px;
+    padding-top: 0;
+
+}
+
+.comment > div > h6 {
+   font-size: 1.5rem;
+}
+
+.comment > div > p {
+      font-size: 0.9rem;
+      
+    
+}
+
+.stars{
+    color: yellow;
+   
+}
